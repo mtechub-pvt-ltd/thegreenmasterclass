@@ -14,7 +14,7 @@ import session from 'express-session'
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const app = express();
-const port = 5001;
+const port = 5000;
 const { json } = pkg;
 dotenv.config();
 app.use(express.json());
